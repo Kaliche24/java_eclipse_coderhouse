@@ -107,6 +107,38 @@ public class Ejercicios_clase01 {
 		
 		//Ejercicio 17
 		System.out.println("-------------------------------------------------");
+		int numPar = 16;
+		boolean par = numPar % 2 == 0;
+		System.out.println("El número es: " + numPar);
+		System.out.println("¿Número par?: " + par);
+		System.out.println("-------------------------------------------------");
+		
+		//Ejercicio 18
+		String primerPalabra = "Buster";
+		String segundaPalabra = "Buster";
+		boolean palabraIgual = primerPalabra == segundaPalabra;
+		System.out.println("Primer palabra: " + primerPalabra);
+		System.out.println("Segunda palabra: " + segundaPalabra);
+		System.out.println("¿Las palabras coinciden?: " + palabraIgual);
+		System.out.println("-------------------------------------------------");
+		
+		//Ejercicio 19
+		int cal = 5;
+		boolean aprobado = cal >= 6;
+		System.out.println("Calificación del alumno: " + cal);
+		System.out.println("Estado de aprobación: " + aprobado);
+		System.out.println("-------------------------------------------------");
+		
+		//Ejercicio 20
+		int rangoNum = 9;
+		boolean rango = rangoNum >= 1 && rangoNum <= 10;
+		System.out.println("El número es: " + rangoNum);
+		System.out.println("¿Está entre 1 y 10? " + rango);
+		System.out.println("-------------------------------------------------");
+		
+		//Ejercicios sobre Buenas Prácticas
+		
+		//Ejercicio 21
 		
 		
 	}
